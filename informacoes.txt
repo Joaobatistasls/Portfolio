@@ -1,0 +1,64 @@
+---- CORES ----
+
+azul-claro: #0F9AFE;
+cinza-claro: #EAEAEA;
+branco: #FFFFFF;
+
+---- CABEÇALHO ----
+
+JB
+
+Texto alternativo da logo: Logo do Menu
+
+Texto alternativo da logo: Logo do Inicio
+
+Texto alternativo da logo: Logo do Sobre mim
+
+Texto alternativo da logo: Logo do Projetos
+
+Início
+Sobre mim
+Projetos
+Serviços
+Minhas Skills
+
+Olá, eu sou João Batista
+Desenvolvedo Full Stack
+
+Soft Skills
+
+Texto alternativo da logo: Logo do Html
+
+Texto alternativo da logo: Logo do Css
+
+Texto alternativo da logo: Logo do JavaScript
+
+Texto alternativo da logo: Logo do Figma
+
+---- SOBRE MIM ----
+
+Sobre mim
+
+Olá, eu sou o João Batista e atualmente
+sou Desenvolvedor Full Stack, cursando
+Sistema da Informação na Estácio.
+Sou apaixonado por desenvolvimento web,
+sua forma de interagir com o usuário me 
+fascina, estou sempre buscando conhecer 
+pessoas e aprender.
+
+---- PROJETOS ----
+
+Texto alternativo da logo: Imagem do Projeto
+
+Título do projeto 
+
+Tecnologias: HTML, CSS E JAVASCRIPT 
+
+Visualizar
+
+---- FOOTER ---- 
+
+© 2023 - João Batista
+
+
