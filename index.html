@@ -10,17 +10,17 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet">
     <!-- Css Style -->
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
     
     <header class="header">
-        <div class="header__cabecalho-itens container">
+        <section class="header__cabecalho-itens container">
             <h1 class="titulo__logo"><a href="#">JB</a></h1>
-            <img src="images/menu_2.svg" alt="Logo do Menu" class="icon__menu">
+            <img src="assets/icons/menu.png" alt="Logo do Menu" class="icon__menu">
             <nav class="header__menu-navegacao">
                 <ul>
-                    <li class="menu__navegacao-itens"><a href="#">Início</a></li>
+                    <li class="menu__navegacao-itens"><a href="#inicio">Início</a></li>
                     <li class="menu__navegacao-itens"><a href="#">Sobre mim</a></li>
                     <li class="menu__navegacao-itens"><a href="#">Projetos</a></li>
                     <li class="menu__navegacao-itens"><a href="#">Serviços</a></li>
@@ -28,10 +28,26 @@
                 </ul>
                 <p class="copyright">© 2023 - João Batista</p>
             </nav>
-        </div>
+        </section>
     </header>
-
-    <main></main>
+    <main>
+        <article class="container">
+            <section class="conteudo__apresentacao" id="inicio">
+                <h2 class="subtitulo__apresentacao">Olá, eu sou <strong>João Batista</strong></h2>
+                <p class="descricao__profissao">Desenvolvedo Full Stack</p>
+                <nav class="conteudo__apresentacao-links">
+                    <a href="#" class="links__externos">
+                        <img src="assets/icons/linkedin.png" alt="Logo do Linkedin" class="icon__linkedin">
+                        <p class="liks__descricao">Linkedin</p>
+                    </a>
+                    <a href="#" class="links__externos">
+                        <img src="assets/icons/download.png" alt="Logo de Dowmload"  class="icon__download">
+                        <p class="liks__descricao">Download CV</p> 
+                    </a>
+                </nav>
+            </section>
+        </article>
+    </main>
     <footer></footer>
 
 </body>

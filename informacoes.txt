@@ -10,12 +10,6 @@ JB
 
 Texto alternativo da logo: Logo do Menu
 
-Texto alternativo da logo: Logo do Inicio
-
-Texto alternativo da logo: Logo do Sobre mim
-
-Texto alternativo da logo: Logo do Projetos
-
 Início
 Sobre mim
 Projetos
@@ -25,15 +19,11 @@ Minhas Skills
 Olá, eu sou João Batista
 Desenvolvedo Full Stack
 
-Soft Skills
+Texto alternativo da logo: Logo do Linkedin
+Linkedin
 
-Texto alternativo da logo: Logo do Html
-
-Texto alternativo da logo: Logo do Css
-
-Texto alternativo da logo: Logo do JavaScript
-
-Texto alternativo da logo: Logo do Figma
+Texto alternativo da logo: Logo de Dowmload
+Dowmload CV 
 
 ---- SOBRE MIM ----
 
@@ -56,6 +46,15 @@ Título do projeto
 Tecnologias: HTML, CSS E JAVASCRIPT 
 
 Visualizar
+
+
+Texto alternativo da logo: Logo do Html
+
+Texto alternativo da logo: Logo do Css
+
+Texto alternativo da logo: Logo do JavaScript
+
+Texto alternativo da logo: Logo do Figma
 
 ---- FOOTER ---- 
 
