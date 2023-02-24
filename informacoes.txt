@@ -29,6 +29,8 @@ Dowmload CV
 
 Sobre mim
 
+Texto alternativo da logo: Imagem do João Batista
+
 Olá, eu sou o João Batista e atualmente
 sou Desenvolvedor Full Stack, cursando
 Sistema da Informação na Estácio.
@@ -39,13 +41,19 @@ pessoas e aprender.
 
 ---- PROJETOS ----
 
+Projetos
+
 Texto alternativo da logo: Imagem do Projeto
 
 Título do projeto 
 
 Tecnologias: HTML, CSS E JAVASCRIPT 
 
+Texto alternativo da logo: Logo do Link Externo
 Visualizar
+
+Texto alternativo da logo: Logo do GitHub
+GitHub
 
 
 Texto alternativo da logo: Logo do Html
@@ -55,6 +63,19 @@ Texto alternativo da logo: Logo do Css
 Texto alternativo da logo: Logo do JavaScript
 
 Texto alternativo da logo: Logo do Figma
+
+---- SERVIÇOS ----
+
+Serviços
+
+Texto alternativo da logo: Imagem Front-end
+Desenvolvedor Front-End
+
+Texto alternativo da logo: Imagem Full-stack
+Desenvolvedor Full Stack
+
+Texto alternativo da logo: Imagem Back-End
+Desenvolvedor Back-End
 
 ---- FOOTER ---- 
 
