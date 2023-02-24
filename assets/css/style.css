@@ -38,7 +38,7 @@ body {
 
 .header__cabecalho-itens {
     height: 60px;
-    border-bottom: 1px solid var(--cinza-claro);
+    border-bottom: 2px solid var(--cinza-claro);
 }
 
 .titulo__logo a {
@@ -100,7 +100,7 @@ body {
 .subtitulo__apresentacao {
     font-size: 1.4rem;
     text-align: center;
-    margin-bottom: 1rem;
+    margin:0 0 1rem;
 }
 
 .subtitulo__apresentacao strong {
@@ -115,7 +115,7 @@ body {
 .conteudo__apresentacao-links {
     display: flex;
     justify-content: center;
-    margin-top: 2rem;
+    margin: 2rem 0 0;
 }
 
 .links__externos {
@@ -127,14 +127,14 @@ body {
 }
 
 .links__externos:first-child {
-    margin-right: 1rem;
+    margin: 0 1rem 0 0;
 }
 
 .icon__linkedin,
 .icon__download {
     width: 20px;
     height: 20px;
-    margin-right: 0.5rem;
+    margin: 0 0 0 0.5rem;
 }
 
 .liks__descricao {
@@ -143,19 +143,19 @@ body {
 }
 
 .conteudo__sobre-mim {
-    margin-top: 14rem;
+    margin: 14rem 0 0;
     text-align: center;
 }
 
 .subtitulo__explicativo {
     font-size: 1.8rem;
-    margin-bottom: 2.5rem;
+    margin: 0 0 2.5rem;
     text-align: center;
 }
 
 .imagem__sobre-mim {
     width: 40%;
-    margin-bottom: 2.5rem;
+    margin: 0 0 2.5rem;
 }
 
 .descricao__sobre-mim {
@@ -163,12 +163,12 @@ body {
 }
 
 .conteudo__projetos {
-    margin-top: 10rem;
+    margin: 10rem 0 0;
 }
 
 .cards__projetos {
     padding: 0.9rem;
-    margin-bottom: 1rem;
+    margin:  0 0 1rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -183,25 +183,26 @@ body {
 
 .imagens__projetos {
     width: 100%;
-    margin-bottom: 0.7rem;
+    margin: 0 0 0.7rem;
 }
 
 .subtitulo__projetos {
-    margin-bottom: 0.4rem;
+    margin: 0 0 0.4rem;
     font-size: 1.2rem;
 }
 
 .tecnologias__projetos {
-    font-size: 0.9rem;
+    font-size: 0.8rem;
+    text-transform: uppercase;
 }
 
 .lista__link-externo {
-    margin-top: 0.9rem;
+    margin: 0.9rem 0 0;
     display: flex;
 }
 
 .itens__externos:first-child {
-    margin-right: 10px;
+    margin: 0 0.8rem 0 0;
 }
 
 .conteudo__link-externo {
@@ -218,7 +219,7 @@ body {
 .icon__github {
     width: 20px;
     height: 20px;
-    margin-right: 5px;
+    margin:  0 0.4rem 0 0;
 }
 
 .subtitulo__link-externo {
@@ -226,6 +227,75 @@ body {
 }
 
 .conteudo__servicos {
-    margin-top: 10rem;
+    margin: 10rem 0 0;
     width: 100%;
+}
+
+.servicos__frontend {
+    width: 100%;
+    height: 20%;
+    margin: 0 0 1rem;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: var(--cinza-claro);
+    border: 2px solid var(--cinza-claro);
+    border-left: 4px solid var(--azul-claro);
+}
+
+.imagem__front-end,
+.imagem__full-stack,
+.imagem__back-end {
+    width: 50px;
+    height: 50px;
+    margin: 0 0 0.8rem;
+}
+
+.descricao__servicos {
+    font-size: 1rem;
+}
+
+.conteudo__minha-skills {
+    width: 100%;
+    margin: 10rem 0 0;
+}
+
+.cards__conteudo-minha-skills {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.cards__skills {
+    width: 95px;
+    height: 95px;
+    padding: 0.8rem;
+    display: flex;
+    border: 2px solid var(--cinza-claro);
+}
+
+.cards__skills:nth-child(2n+1) {
+    margin: 0 0.8rem 0.8rem;
+}
+
+.cards__item-imagens {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagens__card {
+    width: 70%;
+}
+
+.conteudo__footer {
+    width: 110%;
+    padding: 1rem;
+    margin: 1.5rem 0 0;
+    text-align: center;
+}
+
+.copyright__foote {
+    font-size: 1.5rem;
 }

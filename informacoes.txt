@@ -77,6 +77,20 @@ Desenvolvedor Full Stack
 Texto alternativo da logo: Imagem Back-End
 Desenvolvedor Back-End
 
+---- MINHA SKILLS ----
+
+Minhas Skills
+
+Texto alternativo da logo: Logo do Html
+
+Texto alternativo da logo: Logo do Css
+
+Texto alternativo da logo: Logo do JavaScript
+
+Texto alternativo da logo: Logo do BootStrap
+
+Texto alternativo da logo: Logo do Figma
+
 ---- FOOTER ---- 
 
 © 2023 - João Batista
