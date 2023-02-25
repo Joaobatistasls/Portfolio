@@ -63,8 +63,8 @@ body {
     flex-direction: column;
     justify-content: space-between;
     position: absolute;
-    left: 0;
-    top: -800px;
+    left: -800px;
+    top: 0;
     opacity: 0.6;
     text-align: center;
     transition: 1s all;
@@ -94,7 +94,11 @@ body {
 
 .conteudo__apresentacao {
     width: 100%;
-    padding-top: 14rem;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .subtitulo__apresentacao {
@@ -134,7 +138,7 @@ body {
 .icon__download {
     width: 20px;
     height: 20px;
-    margin: 0 0 0 0.5rem;
+    margin: 0 0.5rem 0 0;
 }
 
 .liks__descricao {
@@ -142,9 +146,42 @@ body {
     color: var(--cinza-claro);
 }
 
+.conteudo__minha-skills {
+    width: 100%;
+}
+
+.cards__conteudo-minha-skills {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.cards__skills {
+    width: 95px;
+    height: 95px;
+    padding: 0.8rem;
+    display: flex;
+    border: 2px solid var(--cinza-claro);
+    border-radius: 5px;
+}
+
+.cards__skills:nth-child(2n+1) {
+    margin: 0 0.8rem 0.8rem;
+}
+
+.cards__item-imagens {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagens__card {
+    width: 70%;
+}
+
 .conteudo__sobre-mim {
-    margin: 14rem 0 0;
     text-align: center;
+    margin: 4rem 0 0;
 }
 
 .subtitulo__explicativo {
@@ -163,11 +200,11 @@ body {
 }
 
 .conteudo__projetos {
-    margin: 10rem 0 0;
+    margin: 4rem 0 0;
 }
 
 .cards__projetos {
-    padding: 0.9rem;
+    padding: 0.6rem;
     margin:  0 0 1rem;
     display: flex;
     flex-direction: column;
@@ -184,15 +221,16 @@ body {
 .imagens__projetos {
     width: 100%;
     margin: 0 0 0.7rem;
+    border-radius: 5px;
 }
 
 .subtitulo__projetos {
     margin: 0 0 0.4rem;
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 
 .tecnologias__projetos {
-    font-size: 0.8rem;
+    font-size: 0.7rem;
     text-transform: uppercase;
 }
 
@@ -217,21 +255,21 @@ body {
 
 .icon__link-externo,
 .icon__github {
-    width: 20px;
-    height: 20px;
-    margin:  0 0.4rem 0 0;
+    width: 15px;
+    height: 15px;
+    margin:  0 0.3rem 0 0;
 }
 
 .subtitulo__link-externo {
-    font-size: 1rem;
+    font-size: 0.7rem;
 }
 
 .conteudo__servicos {
-    margin: 10rem 0 0;
+    margin: 4rem 0 0;
     width: 100%;
 }
 
-.servicos__frontend {
+.servicos__tech {
     width: 100%;
     height: 20%;
     margin: 0 0 1rem;
@@ -242,11 +280,10 @@ body {
     color: var(--cinza-claro);
     border: 2px solid var(--cinza-claro);
     border-left: 4px solid var(--azul-claro);
+    border-radius: 5px;
 }
 
-.imagem__front-end,
-.imagem__full-stack,
-.imagem__back-end {
+.imagem__full-stack {
     width: 50px;
     height: 50px;
     margin: 0 0 0.8rem;
@@ -254,39 +291,6 @@ body {
 
 .descricao__servicos {
     font-size: 1rem;
-}
-
-.conteudo__minha-skills {
-    width: 100%;
-    margin: 10rem 0 0;
-}
-
-.cards__conteudo-minha-skills {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-
-.cards__skills {
-    width: 95px;
-    height: 95px;
-    padding: 0.8rem;
-    display: flex;
-    border: 2px solid var(--cinza-claro);
-}
-
-.cards__skills:nth-child(2n+1) {
-    margin: 0 0.8rem 0.8rem;
-}
-
-.cards__item-imagens {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.imagens__card {
-    width: 70%;
 }
 
 .conteudo__footer {
