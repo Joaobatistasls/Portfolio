@@ -63,7 +63,7 @@ body {
     flex-direction: column;
     justify-content: space-between;
     position: absolute;
-    left: -800px;
+    left: -100%;
     top: 0;
     opacity: 0.6;
     text-align: center;
@@ -144,6 +144,10 @@ body {
 .liks__descricao {
     font-size: 0.8rem;
     color: var(--cinza-claro);
+}
+
+.conteudo__apresentacao-imagem {
+    display: none;
 }
 
 .conteudo__minha-skills {
@@ -302,4 +306,121 @@ body {
 
 .copyright__foote {
     font-size: 1.5rem;
+}
+
+
+/* ---- Tablet ---- */
+
+@media (min-width: 768px) {
+    .descricao__sobre-mim {
+        font-size: 1.1rem;
+    }
+
+    .subtitulo__projetos {
+        font-size: 1.1rem;
+    }
+
+    .tecnologias__projetos,
+    .subtitulo__link-externo {
+        font-size: 0.8rem;
+    }
+
+    .icon__link-externo, 
+    .icon__github {
+        width: 20px;
+        height: 20px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .header__cabecalho-itens {
+        height: 75px;
+    }
+
+    .titulo__logo a {
+        font-size: 1.8rem;
+    }
+
+    .icon__menu {
+        display: none;
+    }
+
+    .header__menu-navegacao {
+        width: auto;
+        height: auto;
+        position: static;
+        opacity: 1;
+        background-color: transparent;
+        top: none;
+        left: none;
+    }
+
+    .menu__navegacao {
+        display: flex;
+    }
+
+    .copyright {
+        display: none;
+    }
+
+    .menu__navegacao-itens a {
+        padding: 0.7rem;
+        font-size: 1rem;
+    }
+
+    .conteudo__apresentacao {
+        flex-direction: row;
+    }
+
+    .conteudo__apresentacao-texto,
+    .conteudo__apresentacao-imagem {
+        flex: 1;
+    }
+
+    .subtitulo__apresentacao {
+        font-size: 2rem;
+    }
+
+    .descricao__profissao {
+        font-size: 1.2rem;
+    }
+
+    .conteudo__apresentacao-imagem {
+        display: block;
+    }
+
+    .conteudo__apresentacao-tech-imagem {
+        width: 100%;
+    }
+
+    .imagem__sobre-mim {
+        width: 30%;
+    }
+
+    .descricao__sobre-mim {
+        font-size: 1rem;
+    }
+
+    .navegacao__projetos {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .cards__projetos {
+        width: 50%;
+    }
+
+    .conteudo__servicos {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .servicos__tech {
+        width: 35%;
+    }
 }

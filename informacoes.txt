@@ -25,6 +25,8 @@ Linkedin
 Texto alternativo da logo: Logo de Dowmload
 Dowmload CV 
 
+Texto alternativo da logo: Imagem sobre tecnologia
+
 ---- MINHA SKILLS ----
 
 Minhas Skills
